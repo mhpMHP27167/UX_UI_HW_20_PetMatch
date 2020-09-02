@@ -1,6 +1,12 @@
 h1 {
     font-family: 'Josefin Sans', sans-serif;
 }
+h3 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1.25rem;
+    color: #4A48AE;
+}
 .lead {
     font-family: 'Lato', sans-serif;
     font-weight: 400;
@@ -14,4 +20,23 @@ h1 {
 }
 .jumbotron {
     padding-bottom: 0;
+    background-color: white;
+}
+p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;  
+}
+.lifelinelogo {
+    padding: 1rem; 
+    padding-left: 0;
+    padding-top: 0;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    background-color: rgba(128,126,206);
+}
+a {
+    color: #4A48AE;
+}
+a.hover {
+    color: black;
 }
