@@ -37,3 +37,35 @@ p {
 a {
     color: #4A48AE;
 }
+.circle {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: #C3C2E2;
+    margin: 10pt;
+    display: flex;
+    align-items: center; 
+    justify-content: center
+  }
+
+.flex_donate {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.donate_text {
+    color: black;
+    text-align: center;
+    margin: 5px;
+}
+.blockquote {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    color: black;
+}
+.images_animals {
+    width: 100%;
+    padding: 10px;
+}
