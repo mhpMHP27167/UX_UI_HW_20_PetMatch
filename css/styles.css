@@ -6,6 +6,7 @@ h3 {
     font-weight: 400;
     font-size: 1.25rem;
     color: #4A48AE;
+    margin-top: .5rem;
 }
 .lead {
     font-family: 'Lato', sans-serif;
@@ -73,4 +74,18 @@ a {
 }
 .card-body {
     background-color: #C3C2E2;
+}
+.pet_match {
+    padding: 0rem 0rem;
+    padding-top: 0rem;
+}
+li {
+    list-style-type: none;
+}
+ul {
+    padding-left: 0;
+}
+.ux_designers {
+    border: 1px solid #4A48AE;
+    border-radius: 15%;
 }
