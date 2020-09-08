@@ -20,195 +20,205 @@
 </head>
 
 <body>
+
   <!-- App Introduction - Bootstrap 4 Component: Jumbotron-->
   <div class="jumbotron">
     <div class="container-fluid">
       <div class="row pet_match">
         <div class="col-sm-10">
-      <h1 class="display-4">Pet Match</h1>
-      <p class="lead">A mobile application that connects the community with their local animal shelter.</p>
-    </div>
-      <div class="col-sm-2 ux_designers">
-        <h3>UX Designers:</h3>
-        <ul>
-          <li>Niki Zaldivar</li>
-          <li>Lance Dudkowski</li>
-          <li>McKenzie Peterson</li>
-        </ul>
+          <h1 class="display-4">Pet Match</h1>
+          <p class="lead">A mobile application that connects the community with their local animal shelter.</p>
+        </div>
+        <div class="col-sm-2 ux_designers">
+          <h4>UX Designers</h4>
+          <ul>
+            <li>Niki Zaldivar</li>
+            <li>Lance Dudkowski</li>
+            <li>McKenzie Peterson</li>
+          </ul>
+        </div>
       </div>
-      <hr class="my-4">
     </div>
-  </div>
+    <hr class="my-4">
   </div>
   <!-- Navigation - Bootstrap 4 Component: Vertical Pills with JavaScript-->
   <div class="container-fluid">
-  <div class="row">
-    <div class="col-2">
-      <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-        <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab"
-          aria-controls="v-pills-home" aria-selected="true">Lifeline Animal Project</a>
-        <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab"
-          aria-controls="v-pills-profile" aria-selected="false">User Research</a>
-        <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab"
-          aria-controls="v-pills-messages" aria-selected="false">Problem Statement</a>
-        <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab"
-          aria-controls="v-pills-settings" aria-selected="false">Prototype</a>
-      </div>
-    </div>
-    <div class="col-10">
-      <div class="tab-content" id="v-pills-tabContent">
-        <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
-          <img class="lifelinelogo" src="./images/s5_logo_light.png" alt="Lifeline Animal Project Logo">
-          <p>A non-profit, No-Kill Animal Shelter in Metro Atlanta managing two county shelters: Fulton County Animal
-            Services and DeKalb County Animal Services</p>
-          <h3 class="col-3">Mission:</h3>
-          <p class="col-9">Create a sustainable no-kill community, by saving every healthy and treatable animal.</p>
-          <img src="./images/manuel-meza-KvKop_a_EXw-unsplash.jpg" class="img-fluid"
-            alt="Responsive image - Photography of a woman and her dog. Credit: Manuel Meza from upsplash.com">
-          <h3 class="text_center">How?</h3>
-          <div class="flex_donate">
-            <div class="circle">
-              <p class="donate_text">Donate to the Community Center. </p>
-            </div>
-            <div class="circle">
-              <p class="donate_text">Adopt your new furry best friend. </p>
-            </div>
-            <div class="circle">
-              <p class="donate_text">Foster a homeless animal. </p>
-            </div>
-            <div class="circle">
-              <p class="donate_text">Spay/neuter your pet at a low-cost. </p>
-            </div>
-            <div class="circle">
-              <p class="donate_text">Volunteer to support Lifeline Animal Project </p>
-            </div>
-          </div>
-          <h3>User Research Question</h3>
-          <blockquote class="blockquote">
-            <p class="mb-0"> How do community members discover and interpret the resources offered by Lifeline Animal
-              Project? </p>
-          </blockquote>
-          <h1 class="display-4">Proto Persona</h1>
-          <div class="row row-cols-1 row-cols-md-2 ">
-            <div class="col mb-4">
-              <div class="card h-100">
-                <div class="card-body h-100">
-                  <h5 class="card-title h-100">Demographics</h5>
-                </div>
-                <ul class="list-group list-group-flush">
-                  <li class="list-group-item">Name: Alex</li>
-                  <li class="list-group-item">Age: 20-25</li>
-                  <li class="list-group-item">Relationship: Single</li>
-                  <li class="list-group-item">Ocupation: Grocery Store Manager</li>
-                </ul>
-              </div>
-            </div>
-            <div class="col mb-4">
-              <div class="card h-100">
-                <div class="card-body h-100">
-                  <h5 class="card-title h-100">Behaviors</h5>
-                </div>
-                <ul class="list-group list-group-flush">
-                  <li class="list-group-item">Loves animals and wants to be around them more often</li>
-                  <li class="list-group-item">Enjoys outdoor activities and socializing </li>
-                </ul>
-              </div>
-            </div>
-            <div class="col mb-4">
-              <div class="card h-100">
-                <div class="card-body h-100">
-                  <h5 class="card-title ">Wants</h5>
-                </div>
-                <ul class="list-group list-group-flush">
-                  <li class="list-group-item">A friendly cat to adopt. </li>
-                  <li class="list-group-item">Easy adoption process, but through application. </li>
-                  <li class="list-group-item">Wants to foster before adopting. </li>
-                </ul>
-              </div>
-            </div>
-            <div class="col mb-4">
-              <div class="card h-100">
-                <div class="card-body h-100">
-                  <h5 class="card-title">Concerns</h5>
-                </div>
-                <ul class="list-group list-group-flush">
-                  <li class="list-group-item">Would like to support a no-kill, non-profit, animal shelter.</li>
-                  <li class="list-group-item">Will my potential pet and I be a good match?</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- Research - Bootstrap 4 Component: Card -->
-        <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
-          <h1 class="display-4">User Research</h1>
-          <blockquote class="blockquote">
-            <p class="mb-0"> How do community members discover and interpret the resources offered by Lifeline Animal
-              Project? </p>
-          </blockquote>
-          <h1 class="display-4">Proto Persona</h1>
-          <div class="row row-cols-1 row-cols-md-2 ">
-            <div class="col mb-4">
-              <div class="card h-100">
-                <div class="card-body h-100">
-                  <h5 class="card-title h-100">Demographics</h5>
-                </div>
-                <ul class="list-group list-group-flush">
-                  <li class="list-group-item">Name: Alex</li>
-                  <li class="list-group-item">Age: 20-25</li>
-                  <li class="list-group-item">Relationship: Single</li>
-                  <li class="list-group-item">Ocupation: Grocery Store Manager</li>
-                </ul>
-              </div>
-            </div>
-            <div class="col mb-4">
-              <div class="card h-100">
-                <div class="card-body h-100">
-                  <h5 class="card-title h-100">Behaviors</h5>
-                </div>
-                <ul class="list-group list-group-flush">
-                  <li class="list-group-item">Loves animals and wants to be around them more often</li>
-                  <li class="list-group-item">Enjoys outdoor activities and socializing </li>
-                </ul>
-              </div>
-            </div>
-            <div class="col mb-4">
-              <div class="card h-100">
-                <div class="card-body h-100">
-                  <h5 class="card-title ">Wants</h5>
-                </div>
-                <ul class="list-group list-group-flush">
-                  <li class="list-group-item">A friendly cat to adopt. </li>
-                  <li class="list-group-item">Easy adoption process, but through application. </li>
-                  <li class="list-group-item">Wants to foster before adopting. </li>
-                </ul>
-              </div>
-            </div>
-            <div class="col mb-4">
-              <div class="card h-100">
-                <div class="card-body h-100">
-                  <h5 class="card-title">Concerns</h5>
-                </div>
-                <ul class="list-group list-group-flush">
-                  <li class="list-group-item">Would like to support a no-kill, non-profit, animal shelter.</li>
-                  <li class="list-group-item">Will my potential pet and I be a good match?</li>
-                </ul>
-              </div>
-            </div>
-          </div>
+    <div class="row">
+      <div class="col-sm-12 col-md-2">
+        <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+          <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab"
+            aria-controls="v-pills-home" aria-selected="true">Lifeline Animal Project</a>
+          <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab"
+            aria-controls="v-pills-profile" aria-selected="false">User Research</a>
+          <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab"
+            aria-controls="v-pills-messages" aria-selected="false">Problem Statement</a>
+          <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab"
+            aria-controls="v-pills-settings" aria-selected="false">Prototype</a>
         </div>
       </div>
-      <!-- Problem Statement - Bootstrap 4’s col system -->
-      <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab"></div>
-      <!-- Iterations - Bootstrap 4’s col system -->
-      <!-- Prototype - Bootstrap 4’s col system -->
-      <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
-        nothing</div>
+      <div class="col-sm-12 col-md-10">
+        <div class="tab-content" id="v-pills-tabContent">
+          <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+            <img class="lifelinelogo" src="./images/s5_logo_light.png" alt="Lifeline Animal Project Logo">
+            <p>Lifeline Animal Project is a non-profit, no-kill animal shelter in Metro Atlanta managing two county
+              shelters: Fulton County Animal
+              Services and DeKalb County Animal Services</p>
+            <p>The mission of Lifeline Animal Project is to create a sustainable no-kill community, by saving every
+              healthy and treatable animal.</p>
+            <img src="./images/manuel-meza-KvKop_a_EXw-unsplash.jpg" class="img-fluid"
+              alt="Responsive image - Photography of a woman and her dog. Credit: Manuel Meza from upsplash.com">
+            <h3 class="text_center">How?</h3>
+            <div class="flex_donate">
+              <div class="circle">
+                <p class="donate_text">Donate to the Community Center. </p>
+              </div>
+              <div class="circle">
+                <p class="donate_text">Adopt your new furry best friend. </p>
+              </div>
+              <div class="circle">
+                <p class="donate_text">Foster a homeless animal. </p>
+              </div>
+              <div class="circle">
+                <p class="donate_text">Spay/neuter your pet at a low-cost. </p>
+              </div>
+              <div class="circle">
+                <p class="donate_text">Volunteer to support Lifeline Animal Project </p>
+              </div>
+            </div>
+          </div>
+          <!-- Research - Bootstrap 4 Component: Card -->
+          <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+            <h4>Research Question</h4>
+            <p> How do community members discover and interpret the resources offered by Lifeline
+              Animal Project?
+            </p>
+            <h4>Research Methodology</h4>
+            <p>The design team conducted six fifteen minute interviews with pertient users, people who foster or adopted
+              a dog from an animal
+              shelter in the last six months. McKenzie wrote an online survey with 40 participents which inqured about
+              the motivations for pet ownership and adoption. Niki interviewed Lifeline Animal Project to gain insight
+              on how the animal shelter viewed their own goals and needs.</p>
+            <h4>Proto Persona</h4>
+            <div class="row row-cols-1 row-cols-md-2 ">
+              <div class="col mb-3">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title">Demographics</h5>
+                  </div>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Name: Alex</li>
+                    <li class="list-group-item">Age: 20-25</li>
+                    <li class="list-group-item">Relationship: Single</li>
+                    <li class="list-group-item">Ocupation: Grocery Store Manager</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col mb-3">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title">Behaviors</h5>
+                  </div>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Loves animals and wants to be around them more often</li>
+                    <li class="list-group-item">Enjoys outdoor activities and socializing </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col mb-3">
+                <div class="card ">
+                  <div class="card-body">
+                    <h5 class="card-title">Wants</h5>
+                  </div>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">A friendly cat to adopt. </li>
+                    <li class="list-group-item">Easy adoption process, but through application. </li>
+                    <li class="list-group-item">Wants to foster before adopting. </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col mb-3">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title">Concerns</h5>
+                  </div>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Would like to support a no-kill, non-profit, animal shelter.</li>
+                    <li class="list-group-item">Will my potential pet and I be a good match?</li>
+                  </ul>
+                </div>
+              </div>
+              <!--
+              <div>
+                <img src="./images/Screen Shot 2020-08-31 at 4.28 2.png" alt="Illustration by Nikki">
+                <p class="caption">Illustration by: Niki Zaldivar</p>
+              </div>
+              -->
+            </div>
+          </div>
+          <!-- Problem Statement - Bootstrap 4’s col system -->
+          <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+            <div class="ProblemStatement">
+              <h4>Problem Statement</h4>
+              <p>
+                Communication between the shelter and the Metro-Atlanta community is a consistent challenge. Lifeline
+                Animal project needs to create a long-lasting relationship with volunteers, foster parents, and
+                potential pet owners in order to fulfill their mission of safely homing every animal in Metro Atlanta.
+              </p>
+            </div>
+            <h4>Ideation</h4>
+            <p>After user research, our team brainstormed about useful features to improve communication between the
+              shelter and the community. We found that matchmaking, placing the right animal with the right foster or
+              adoption parent, is a neglected component in Lifeline Animal Project’s current communication practices.</p>
+              <div class="flex_donate">
+                <div class="circle">
+                  <p class="donate_text">Mobile applications are convenient and easy-to-use. </p>
+                </div>
+                <div class="circle">
+                  <p class="donate_text">Wouldn’t it be fun to swipe and match with your favorite furry friend?</p>
+                </div>
+                <div class="circle">
+                  <p class="donate_text">Perhaps, a quick quiz to match the perfect pet with their lifestyle? </p>
+                </div>
+                <div class="circle">
+                  <p class="donate_text">An in-app messaging feature would improve response time. </p>
+                </div>
+              </div>
+                </div>
+          <!-- Iterations - Bootstrap 4’s col system -->
+          <!-- Prototype - Bootstrap 4’s col system -->
+          <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+            <h4>Prototype</h4>
+            <div class="button_container">
+              <a class="button adobeButton" href="https://xd.adobe.com/view/9cbb1ec4-4917-46d6-b538-0b6ec4e61895-c9e8/">Adobe XD Prototype</a> 
+              </div>
+            <img src="./images/Pet_Match_Cover.png" alt="Final Design image" class="img-fluid Pet_Match_Cover">
+          <h4>A/B Testing </h4>
+          <p>The final iteration of the main page combined the most-liked elements from these three designs. 
+          </p>
+          <ul>
+            <li>Clean and specific navigation from A </li>
+            <li>Layout of B with Menu bar</li>
+            <li>Pet of the Week feature from C</li>
+       </ul>
+            <div class=" row abc_testing">
+              <div class="col-4 home_screen">
+                <img class="iphone" src="./images/Home A@2x.png" alt="Screen A">
+                <h4>Home screen option A</h4>
+              </div>
+              <div class="col-4 home_screen">
+                <img class="iphone" src="./images/Home B@2x.png" alt="Screen A">
+                <h4>Home screen option B</h4>
+              </div>
+              <div class="col-4 home_screen">
+                <img class="iphone" src="./images/Home C@2x.png" alt="Screen A">
+                <h4>Home screen option C</h4>
+              </div>
+          </div>
+        </div>
+      </div>
     </div>
-  </div>
   </div>
 </body>
-
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
   integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
